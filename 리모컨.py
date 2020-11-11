@@ -3,7 +3,7 @@ a, b = map(int, input().split())
 count = 0
 while a != b:
     count += 1
-    if abs(a-b) >= 8:
+    if abs(a-b) >= 7.5:
         if a > b:
             a -= 10
         else:
